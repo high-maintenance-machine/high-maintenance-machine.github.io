@@ -1,0 +1,12 @@
+:root {
+    --dark-blue: #00008B;
+    --light-blue: #1F51FF;
+}
+
+h1 {
+    font-size: 3em;
+    background: -webkit-linear-gradient(var(--light-blue), var(--dark-blue));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
