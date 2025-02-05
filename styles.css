@@ -50,9 +50,9 @@ img {
 .socials-container {
     margin-top: 25px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     height: 67vh;
-    align-items: center;
+    align-items: start;
     justify-items: center;
 }
 
