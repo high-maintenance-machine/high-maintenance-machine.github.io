@@ -50,10 +50,10 @@ img {
 .socials-container {
     margin-top: 25px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     height: 67vh;
     align-items: start;
-    justify-items: center;
+    justify-content: center;
 }
 
 a {
