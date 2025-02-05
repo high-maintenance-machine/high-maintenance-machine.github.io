@@ -19,7 +19,7 @@ body {
     font-style: normal;
     font-variation-settings:
       "wdth" 100;
-      background-color: var(--gold);
+    background: linear-gradient(var(--gold), rgb(255, 242, 122));
 }
 
 .main-container {
@@ -29,7 +29,7 @@ body {
     align-items: center;
 }
 
-.info-container {
+.info-container, .socials {
     box-shadow: var(--box-shadow);
     border-radius: 10px;
     width: 350px;
@@ -47,14 +47,28 @@ img {
     margin: 15px;
 }
 
-.showcase-container {
-    width: 80%;
-    margin: auto;
+.socials-container {
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 67vh;
+    align-items: center;
+    justify-items: center;
 }
 
-iframe {
-    width: 200%;
-    height: 500px;
+a {
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+
+.socials {
+    width: 100px;
+    text-align: center;
+}
+
+i {
+    font-size: 3em;
 }
 
 /* 
