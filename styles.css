@@ -11,6 +11,7 @@
     --light-orange: #FFBF00;
     --dark-orange: #F28C28;
     --gold: #FFC000;
+    background: linear-gradient(var(--gold), rgb(255, 242, 122));
 }
 
 body {
@@ -19,7 +20,6 @@ body {
     font-style: normal;
     font-variation-settings:
       "wdth" 100;
-    background: linear-gradient(var(--gold), rgb(255, 242, 122));
 }
 
 .main-container {
